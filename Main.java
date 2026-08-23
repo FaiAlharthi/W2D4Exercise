@@ -430,25 +430,6 @@ public static void areEqual(int num1Q13, int num2Q13, int num3Q13, int nu4Q13){
     }
 }
 
-// Question 18/
-public static void CountLetter ( String wordQ18 ){
-    int countQ18 = 0;
-
-    try {
-        for (int i = 0; i < wordQ18.length(); i++) {
-            if (wordQ18.charAt(i) == 'a') {
-                countQ18++;
-            }
-        }
-        if (countQ18 != 0) {
-            throw new Exception("Number of the letter 'a' appears in word " + wordQ18 + " is : " + countQ18 + " times");
-        }else{
-            throw new Exception("There's No existence for the letter 'a' ");
-        }
-    } catch (Exception e) {
-        System.out.println(e.getMessage());
-    }
-
 }
 
 
